@@ -19,6 +19,10 @@ A high performance WebAssembly interpreter written in C.
 [![Discord](https://img.shields.io/discord/671415645073702925?style=flat-square&logo=discord&color=7289da&label=discord)](https://discord.gg/qmZjgnd) 
 [![Telegram](https://img.shields.io/badge/telegram-chat-0088cc?style=flat-square&logo=telegram)](https://t.me/joinchat/DD8s3xVG8Vj_LxRDm52eTQ)
 
+## About this fork
+
+This fork adds [scripts to cross build wasm3 as a static library for Android](android/README.md)
+
 ## Getting Started
 
 Here's an online demo and a small [getting started guide](https://wapm.io/package/vshymanskyy/wasm3):
