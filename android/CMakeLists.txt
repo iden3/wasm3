@@ -25,7 +25,7 @@ file(GLOB M3_SRC FOLLOW_SYMLINKS "m3/*.c" "*.c")
 #     "m3/m3_parse.c"
 # )
 
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Dd_m3HasWASI") #-Dd_m3FixedHeap=1048576
+# set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Dd_m3HasWASI") #-Dd_m3FixedHeap=1048576
 add_library(m3 STATIC ${M3_SRC})
 target_include_directories(m3 PUBLIC .)
 

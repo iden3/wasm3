@@ -4,7 +4,7 @@ set -ex
 
 #NDK_HOME="/mnt/data/dev/app/Android/Sdk/ndk-bundle"
 
-API=29
+API=16
 for arch in arm64-v8a armeabi-v7a x86 x86_64; do
     cmake .. \
         -DCMAKE_TOOLCHAIN_FILE=${NDK_HOME}/build/cmake/android.toolchain.cmake \
